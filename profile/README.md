@@ -12,6 +12,8 @@ CS undergraduate (sophomore) in Shanghai, class of 2029. I build things that mak
 
 Point it at a Chinese government procurement notice. It returns the project ID, the buyer, the winning bidder and the amount — **each value tagged with its character offset in the original text**. Fields with no traceable evidence are dropped instead of guessed.
 
+**[▶ Try it online](https://tlyyxjz.github.io/bidagent-demo/)** — click any extracted field and the source text jumps to and highlights that exact character range.
+
 `620 golden notices · 97.60% field accuracy · 0% unsupported output · 822/828 SHA-256 evidence records · 2435 tests`
 
 ### [Casbin Config Doctor](https://github.com/tlyyxjz/casbin-config-doctor) — why does `enforce()` return `false`?
@@ -77,4 +79,4 @@ If you sell prompts and you're shipping the prompt text to your buyer, you're on
 - Personal site: **https://tlyyxjz.github.io/**
 - Email: tlyyxjz@outlook.com
 
-<sub>中文：上海建桥学院计算机专业大二（2029 届）。做的是「让 LLM 输出可被核验」——BidAgent 把每条抽取结果指回原文第几个字符，620 篇金标实测字段准确率 97.60%；Casbin Config Doctor 零依赖诊断 `enforce()` 为什么返回 false，可直接在线试用。在 oceanbase/powercontext 有已合并的 PR。</sub>
+<sub>中文：上海建桥学院计算机专业大二（2029 届）。做的是「让 LLM 输出可被核验」——BidAgent 把每条抽取结果指回原文第几个字符（[可在线试用](https://tlyyxjz.github.io/bidagent-demo/)），620 篇金标实测字段准确率 97.60%；Casbin Config Doctor 零依赖诊断 `enforce()` 为什么返回 false，可直接在线试用。在 oceanbase/powercontext 有已合并的 PR。</sub>
